@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that presents the sum_list function with annotations"""
+"""Module that presents the sum_mixed_list function with annotations"""
 from typing import List
 from typing import Union
 
