@@ -3,6 +3,7 @@
 from typing import Sequence
 from typing import Optional
 from typing import Any
+from typing import cast
 
 
 def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
@@ -10,4 +11,4 @@ def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
     if lst:
         return lst[0]
     else:
-        return None
+        return cast(Optional[Any], None)
