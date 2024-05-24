@@ -33,7 +33,7 @@ class Server:
         if i[0] >= len(self.__dataset):
             return []
         else:
-            return self.__dataset[i[0] : i[1]]
+            return self.__dataset[i[0]:i[1]]
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
